@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>PhotoPicker</title>
+  </head>
+  <body>
+    <header>
+      <div class="form-wrapper">
+        <form class="search-form">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <input
+            type="text"
+            name="search"
+            class="search-input"
+            placeholder="Search..."
+          />
+        </form>
+      </div>
+      <h2><a href="./index.html" id="logo">PHOTON 🔆</a></h2>
+    </header>
+
+    <main><div class="gallery"></div></main>
+
+    <div class="nav-button bounce"><button class="moreBtn">More</button></div>
+
+    <div class="modal-wrapper">
+      <object class="loading" data="packman.svg"></object>
+    </div>
+
+    <footer>
+      <div class="footer-wrapper">
+        <p>
+          Check out my simple webapp that allows you to search and download
+          photos, regards Luigi Lupini.
+        </p>
+      </div>
+      <!-- <div class="icon-wrapper">
+        <i class="icon fa-brands fa-linkedin"></i> -
+        <i class="icon fa-solid fa-hashtag"></i> -
+        <i class="icon fa-solid fa-paper-plane"></i>
+      </div> -->
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
