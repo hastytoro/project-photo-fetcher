@@ -33,7 +33,7 @@ function generateHtml(data) {
     photoDiv.innerHTML = `
     <div class='gallery-info'> 
       <p>${photo.photographer}</p>
-      <a class="download" href=${photo.src.original}>Download</a>
+      <a class="download" target='_blank' href=${photo.src.original}>Download</a>
     </div>
     <div class="gallery-img-wrapper">
       <img src=${photo.src.large}></img>
